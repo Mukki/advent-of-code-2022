@@ -3,7 +3,7 @@ import sys
 def main():
     if len(sys.argv) != 2:
         print("Please provide the data file for the challenge.")
-        print("usage: advent-of-code-1.py data.txt")
+        print("usage: solve.py data.txt")
         exit()
 
     calories_line = []
